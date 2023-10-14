@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 import SplashScreen from './src/screens/SplashScreen';
+import CreateAccount from './src/screens/CreateAccount';
 
 export default function App() {
   return (
-    <SplashScreen></SplashScreen>
+    <SplashScreen></SplashScreen> 
   );
 }
 
